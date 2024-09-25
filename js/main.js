@@ -56,7 +56,7 @@ $(function () {
             duration: 1500
         });
         $('#section01 .mainImgBox img').addClass('active');
-        $('#section01 .mainVisualWrap .mainTitle').addClass('active');
+        // $('#section01 .mainVisualWrap .mainTitle').addClass('active');
     });
 
 

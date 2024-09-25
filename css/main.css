@@ -9,10 +9,8 @@
 #section01 .mainVisualWrap .mainImgBox img.active{transform: scale(1); transition: all 5s;}
 #section01 .mainVisualWrap .mainImgBox img{display: block; width: 100%; height: 100%; object-fit: cover; transform: scale(1.3); }
 #section01 .mainVisualWrap .mainTitleBox{position: absolute; left: 50%; top: 55%; /*top:420px;*/ transform: translate(-50%,-50%); width: 100%; text-align: center; }
-#section01 .mainVisualWrap .mainTitleBox .mainTitle h2{opacity: 0; margin-bottom: 80px; text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1); color: #fff; font-weight: 700; font-size: 254px; font-family: 'GmarketSans'; line-height: 1; text-transform: uppercase;}
-#section01 .mainVisualWrap .mainTitleBox .mainTitle.active h2{opacity: 1; transition: all 2s;}
-#section01 .mainVisualWrap .mainTitleBox .mainTitle.active .subText p{opacity: 1; transition: all 2s;}
-#section01 .mainVisualWrap .mainTitleBox .mainTitle .subText{display: flex; justify-content: space-between;}#section01 .mainVisualWrap .mainTitleBox .mainTitle .subText p{opacity: 0; color: #fff; font-weight: 800; font-size: 35px; line-height: 1;}
+#section01 .mainVisualWrap .mainTitleBox .mainTitle h2{margin-bottom: 80px; text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1); color: #fff; font-weight: 700; font-size: 254px; font-family: 'GmarketSans'; line-height: 1; text-transform: uppercase;}
+#section01 .mainVisualWrap .mainTitleBox .mainTitle .subText{display: flex; justify-content: space-between;}#section01 .mainVisualWrap .mainTitleBox .mainTitle .subText p{color: #fff; font-weight: 800; font-size: 35px; line-height: 1;}
 #section01 .controlBox button{position: absolute; top:50%; transform: translateY(-50%); width: 23px; height: 43px;}
 #section01 .controlBox button.prev{left:60px; background: url(../images/main/prev_btn.svg)no-repeat;}
 #section01 .controlBox button.next{right:60px; background: url(../images/main/next_btn.svg)no-repeat;}
