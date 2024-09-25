@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+    <g transform="rotate(180 30 30)">
+        <circle data-name="타원 2" cx="30" cy="30" r="30" style="fill:#003277"/>
+        <g data-name="Icon feather-arrow-down">
+            <path data-name="패스 15" d="M0 0v15" transform="translate(30 22.5)" style="fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px"/>
+            <path data-name="패스 16" d="M15 0 7.5 7.5 0 0" transform="translate(22.5 30)" style="fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px"/>
+        </g>
+    </g>
+</svg>
