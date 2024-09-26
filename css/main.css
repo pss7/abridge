@@ -4,6 +4,10 @@
 .container{max-width: 1454px; padding: 0 20px; margin: 0 auto;}
 
 /* section01 */
+#section01{position: relative;}
+#section01::after{content: ''; height: 60px; position: absolute; left:0; right:0; bottom: 0; background: url(../images/main/main-bottom.png)no-repeat center; }
+#section01 .scroll{ position: absolute; left: 50%; transform: translateX(-50%); bottom: 89px; font-size: 12px; font-weight: 500; color: #fff; font-family: 'GmarketSans'; line-height: 1;} 
+#section01 .scroll::after{content: ''; position: absolute; left: 50%; transform: translateX(-50%); bottom: -31px; width: 16px; height: 16px; background: url(../images/main/scroll-icon.svg)no-repeat;}
 #section01 .mainVisualWrap{position: relative;}
 #section01 .mainVisualWrap .mainImgBox{}
 #section01 .mainVisualWrap .mainImgBox img.active{transform: scale(1); transition: all 5s;}
