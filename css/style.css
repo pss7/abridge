@@ -14,7 +14,9 @@
 #header .logo h1 a img,
 #header .logo h1 a{display: block;}
 #header nav .menuBox{display: flex; align-items: center; gap: 80px;}
-#header nav .menuBox li a{display: block; font-size: 20px; font-weight: 600; line-height: 1; color: #fff;}
+#header nav .menuBox li a{position: relative; display: block; font-size: 20px; font-weight: 600; line-height: 1; color: #fff;}
+#header nav .menuBox li a::after{content: ''; position: absolute; left:0; right:0; bottom: -7px; background-color: #fff; height: 2px; width: 0; transition: all .3s;}
+#header nav .menuBox li a:hover::after{width: 100%;}
 #header .mobileBtn,
 #header #mobileMenuWrap{display: none;}
 
