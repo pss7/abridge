@@ -24,4 +24,20 @@ $(function () {
         $('.bg').hide();
     });
 
+    $('#header #mobileMenuWrap .mobileMenu > li > a').click(function () {
+        if ($(this).parents('li').find('.depth02').length) {
+            if ($(this).parent().hasClass('active')) {
+                $(this).parents('li').find('.depth02').slideUp();
+                $(this).parent().removeClass('active');
+            } else {
+                $('#header #mobileMenuWrap .mobileMenu > li').find('.depth02').slideUp();
+                $(this).parents('li').find('.depth02').slideDown();
+                $('#header #mobileMenuWrap .mobileMenu > li').removeClass('active');
+                $(this).parent().addClass('active');
+            }
+            return false;
+        }
+    });
+    $('#header #mobileMenuWrap .mobileMenu > li:has(ul)').children('a').addClass('depth2');
+
 });
