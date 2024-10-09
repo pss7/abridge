@@ -100,7 +100,7 @@
 #section02 .servicesList li a .view{position: relative; padding-right: 30px; font-size: 20px; }
 #section02 .servicesList li a .view::after{content: ''; position: absolute; top:2px; right:0; width: 20px; height: 20px;}
 #section02 .servicesList li a.product{background: linear-gradient(to right, #e0e5f1, #e9edf5 53%); z-index: 1;}
-#section02 .servicesList li a.product::after{content: ''; width: 740px; height: 520px; position: absolute; top: 50%; transform: translateY(-50%); right:0; background: url(../images/main/product_bg01.png)no-repeat center; z-index: -1; background-size: cover;}
+#section02 .servicesList li a.product::after{content: ''; width: 740px; height: 520px; position: absolute; top: 50%; transform: translateY(-50%); right:89px; background: url(../images/main/product_bg01.png)no-repeat center; z-index: -1; background-size: cover;}
 #section02 .servicesList li a.product .comTitle h3{color: #003277;}
 #section02 .servicesList li a.product .comTitle p{color: #000;}
 #section02 .servicesList li a.product .view{color: #003277;}
@@ -116,6 +116,12 @@
 #section02 .servicesList li a.branding .view{color: #fff;}
 #section02 .servicesList li a.branding .view::after{ background: url(../images/main/arrow02.svg)no-repeat;}
 
+@media (max-width: 1380px){
+
+    /* #section02 .servicesList li a.product::after{right: 20px; width: 568px; height: 383px; transform: none; top: auto; bottom: 0;} */
+
+}
+
 @media (max-width: 1024px){
 
     #section02{padding: 76px 0 50px;}
@@ -128,6 +134,8 @@
     #section02 .servicesList li a .comTitle p{font-size: 18px;}
     #section02 .servicesList li a .view{font-size: 18px;}
     #section02 .servicesList li a .view::after{top: 1px;}
+
+    /* #section02 .servicesList li a.product::after{right: 20px; width: 350px; height: 250px; } */
 
 }
 
@@ -147,11 +155,30 @@
 
 }
 
+@media (max-width: 576px){
+
+    /* #section02 .servicesList li a.product::after{width: 221px; height: 137px;} */
+
+}
+
 @media (max-width: 480px){
 
     #section02 .titleBox p{font-size: 20px;}
     #section02 .servicesList li a{padding: 42px 20px 45px 32px;}
     #section02 .servicesList li a .comTitle h3{font-size: 20px;}
     #section02 .servicesList li a .comTitle{margin-bottom: 60px;}
+    /* #section02 .servicesList li a.product::after{width: 200px; height: 137px;} */
+
+}
+
+@media (max-width: 414px){
+
+    /* #section02 .servicesList li a.product::after{width: 150px; height: 99px;} */
+
+}
+
+@media (max-width: 360px){
+
+    /* #section02 .servicesList li a.product::after{width: 130px; height: 90px;} */
 
 }
