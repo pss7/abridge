@@ -163,6 +163,25 @@ $(function () {
         dots: true,
     });
 
+    /* 사업소개-slick */
+    $('.businessListBox .slick').slick({
+        variableWidth: true,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        arrows: true,
+        dots: true,
+        prevArrow: $('.businessListBox .prev'),
+        nextArrow: $('.businessListBox .next'),
+        responsive: [ 
+            {  
+                breakpoint: 769, 
+                settings: {
+                    centerMode: true,
+                    slidesToShow:3 
+                } 
+            },
+        ]
+    });
 
 
 
