@@ -10,15 +10,28 @@ $(function () {
         slidesToScroll: 1,
         arrows: false,
         fade: true,
-        asNavFor: '.productimgList01'
+        asNavFor: '.productimgList01',
+
     });
     $('.productimgList01').slick({
+        variableWidth: true,
         slidesToShow: 5,
         slidesToScroll: 1,
         asNavFor: '.productImgBox01',
         dots: false,
         centerMode: true,
-        focusOnSelect: true
+        focusOnSelect: true,
+        prevArrow: $('.productImgWrap .control01 .prev'),
+        nextArrow: $('.productImgWrap .control01 .next'),
+        responsive: [
+            {
+                breakpoint: 769,
+                settings: {
+                    variableWidth: true,
+                    slidesToShow: 3
+                }
+            }
+        ]
     });
 
     $('.productImgBox02').slick({
@@ -29,12 +42,24 @@ $(function () {
         asNavFor: '.productimgList02'
     });
     $('.productimgList02').slick({
+        variableWidth: true,
         slidesToShow: 5,
         slidesToScroll: 1,
         asNavFor: '.productImgBox02',
         dots: false,
         centerMode: true,
-        focusOnSelect: true
+        focusOnSelect: true,
+        prevArrow: $('.productImgWrap .control02 .prev'),
+        nextArrow: $('.productImgWrap .control02 .next'),
+        responsive: [
+            {
+                breakpoint: 769,
+                settings: {
+                    variableWidth: true,
+                    slidesToShow: 3
+                }
+            }
+        ]
     });
 
     $('.productImgBox03').slick({
@@ -45,12 +70,24 @@ $(function () {
         asNavFor: '.productimgList03'
     });
     $('.productimgList03').slick({
+        variableWidth: true,
         slidesToShow: 5,
         slidesToScroll: 1,
         asNavFor: '.productImgBox03',
         dots: false,
         centerMode: true,
-        focusOnSelect: true
+        focusOnSelect: true,
+        prevArrow: $('.productImgWrap .control03 .prev'),
+        nextArrow: $('.productImgWrap .control03 .next'),
+        responsive: [
+            {
+                breakpoint: 769,
+                settings: {
+                    variableWidth: true,
+                    slidesToShow: 3
+                }
+            }
+        ]
     });
 
     $('.productImgBox04').slick({
@@ -61,12 +98,24 @@ $(function () {
         asNavFor: '.productimgList04'
     });
     $('.productimgList04').slick({
+        variableWidth: true,
         slidesToShow: 5,
         slidesToScroll: 1,
         asNavFor: '.productImgBox04',
         dots: false,
         centerMode: true,
-        focusOnSelect: true
+        focusOnSelect: true,
+        prevArrow: $('.productImgWrap .control04 .prev'),
+        nextArrow: $('.productImgWrap .control04 .next'),
+        responsive: [
+            {
+                breakpoint: 769,
+                settings: {
+                    variableWidth: true,
+                    slidesToShow: 3
+                }
+            }
+        ]
     });
 
     $('.productImgBox05').slick({
@@ -77,12 +126,24 @@ $(function () {
         asNavFor: '.productimgList05'
     });
     $('.productimgList05').slick({
+        variableWidth: true,
         slidesToShow: 5,
         slidesToScroll: 1,
         asNavFor: '.productImgBox05',
         dots: false,
         centerMode: true,
-        focusOnSelect: true
+        focusOnSelect: true,
+        prevArrow: $('.productImgWrap .control05 .prev'),
+        nextArrow: $('.productImgWrap .control05 .next'),
+        responsive: [
+            {
+                breakpoint: 769,
+                settings: {
+                    variableWidth: true,
+                    slidesToShow: 3
+                }
+            }
+        ]
     });
 
     $('.productImgBox06').slick({
@@ -93,12 +154,24 @@ $(function () {
         asNavFor: '.productimgList06'
     });
     $('.productimgList06').slick({
+        variableWidth: true,
         slidesToShow: 5,
         slidesToScroll: 1,
         asNavFor: '.productImgBox06',
         dots: false,
         centerMode: true,
-        focusOnSelect: true
+        focusOnSelect: true,
+        prevArrow: $('.productImgWrap .control06 .prev'),
+        nextArrow: $('.productImgWrap .control06 .next'),
+        responsive: [
+            {
+                breakpoint: 769,
+                settings: {
+                    variableWidth: true,
+                    slidesToShow: 3
+                }
+            }
+        ]
     });
 
     /* 론픽-tab */
@@ -172,13 +245,13 @@ $(function () {
         dots: true,
         prevArrow: $('.businessListBox .prev'),
         nextArrow: $('.businessListBox .next'),
-        responsive: [ 
-            {  
-                breakpoint: 769, 
+        responsive: [
+            {
+                breakpoint: 769,
                 settings: {
                     centerMode: true,
-                    slidesToShow:3 
-                } 
+                    slidesToShow: 3
+                }
             },
         ]
     });

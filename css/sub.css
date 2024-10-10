@@ -153,8 +153,12 @@ main .topImg.active img{transform: scale(1);}
 .ronficWrap .productInfoWrap .productImgBox{margin-bottom: 30px;} 
 .ronficWrap .productInfoWrap .productImgBox .imgBox{width: 560px; height: 560px;}
 .ronficWrap .productInfoWrap .productImgBox .imgBox img{display: block; width: 100%; height: 100%; object-fit: cover;}
+.ronficWrap .productInfoWrap .productListWrap{position: relative;}
+.ronficWrap .productInfoWrap .productListWrap button{width: 30px; height: 30px; position: absolute; top: 50%; transform: translateY(-50%);}
+.ronficWrap .productInfoWrap .productListWrap button.prev{left:-40px; background: url(../images/sub/arrow_icon02.png)no-repeat center; background-size: cover;}
+.ronficWrap .productInfoWrap .productListWrap button.next{right:-40px; background: url(../images/sub/arrow_icon02.png)no-repeat center; background-size: cover; transform: translateY(-50%) rotate(180deg);}
 .ronficWrap .productInfoWrap .productimgList{display: flex;  align-items: center; gap: 15px; margin: 0 -7.5px;}
-.ronficWrap .productInfoWrap .productimgList li{margin: 0 7.5px;}
+.ronficWrap .productInfoWrap .productimgList li{width: 100px; height: 100px; margin: 0 7.5px;}
 .ronficWrap .productInfoWrap .productimgList li img{display: block; width: 100%; height: 100%; object-fit: cover;}
 .ronficWrap .productInfoWrap .productimgList .slick-list{padding: 0!important;}
 .ronficWrap .productInfoWrap .productInfoText .infoText{margin-bottom: 4px;}
@@ -183,6 +187,11 @@ main .topImg.active img{transform: scale(1);}
     .ronficWrap .contentTabWrap .contentTabBox{-ms-overflow-style: none;}
     .ronficWrap .contentTabWrap .contentTabBox::-webkit-scrollbar{display:none;}
     .ronficWrap .contentTab{width: 1300px;}
+    .ronficWrap .productInfoWrap .productListWrap .control{display: flex; gap: 0 5px; position: absolute; top:-35px; right:0;}
+    .ronficWrap .productInfoWrap .productListWrap button{position: static; transform: none;}
+    .ronficWrap .productInfoWrap .productListWrap button.prev{left: auto;}
+    .ronficWrap .productInfoWrap .productListWrap button.next{right: auto; transform: rotate(180deg);}
+    .ronficWrap .productInfoWrap .productImgBox{margin-bottom: 50px;}
 
 }
 
@@ -193,6 +202,7 @@ main .topImg.active img{transform: scale(1);}
     .ronficWrap .productInfoWrap .productImgBox{margin-bottom: 17px;}
     .ronficWrap .productInfoWrap .productImgBox .imgBox{margin: 0 auto;}
     .ronficWrap .productInfoWrap .productimgList{justify-content: center;}
+    .ronficWrap .productInfoWrap .productimgList li{width: 150px; height: 150px;} 
     .ronficWrap .productInfoWrap .productInfoText h5{margin-bottom: 13px; font-size: 25px;}
     .ronficWrap .productInfoWrap .productInfoText .infoText01{font-size: 20px;}
     .ronficWrap .productInfoWrap .productInfoText .infoText02{font-size: 18px;}
@@ -201,6 +211,7 @@ main .topImg.active img{transform: scale(1);}
     .ronficWrap .contentTabWrap{padding-bottom: 0; margin-bottom: 46px;}
     .ronficWrap .contentTab li a .number{font-size: 20px;}
     .ronficWrap .contentTab{width: 1200px; padding: 35px 0;}
+    .ronficWrap .productInfoWrap .productListWrap .control{position: absolute; top:auto; bottom: -45px; right:0;}
 
 }
 
@@ -210,8 +221,8 @@ main .topImg.active img{transform: scale(1);}
     .ronficWrap .productInfoWrap .productImgBox .imgBox{position: relative; width: 100%; height: 0; padding-top: 69%;}
     .ronficWrap .productInfoWrap .productImgBox .imgBox img{position: absolute; top:0; left:0; right:0; bottom: 0;}
     .ronficWrap .productInfoWrap .productimgList{justify-content: flex-start;}
-    .ronficWrap .productInfoWrap .productimgList{margin: 0 -1%;}
-    .ronficWrap .productInfoWrap .productimgList li{margin: 0 1%;}
+
+    .ronficWrap .productInfoWrap .productimgList li{width: 150px; height: 150px;} 
     .ronficWrap .productInfoWrap .productInfoText h5{font-size: 20px;}
     .ronficWrap .productInfoWrap .productInfoText .infoText01{font-size: 16px;}
     .ronficWrap .productInfoWrap .productInfoText .infoText01{padding-bottom: 20px; margin-bottom: 20px;}
@@ -224,6 +235,14 @@ main .topImg.active img{transform: scale(1);}
     .ronficWrap .contentTab li{width: 49%; flex:none;}
     .ronficWrap .contentTab li a{padding-bottom: 20px;}
     .ronficWrap .contentTab li a .number{margin-bottom: 5px; font-size: 18px;}
+
+}
+
+@media (max-width: 576px){
+
+    .ronficWrap .productInfoWrap .productListWrap .control{display: none;}
+    .ronficWrap .productInfoWrap .productimgList{margin: 0 -5px;}
+    .ronficWrap .productInfoWrap .productimgList li{width: 100px; height: 100px; margin: 0 5px;} 
 
 }
 
