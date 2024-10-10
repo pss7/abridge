@@ -19,7 +19,6 @@ $(function () {
         slidesToScroll: 1,
         asNavFor: '.productImgBox01',
         dots: false,
-        centerMode: true,
         focusOnSelect: true,
         prevArrow: $('.productImgWrap .control01 .prev'),
         nextArrow: $('.productImgWrap .control01 .next'),
@@ -27,6 +26,7 @@ $(function () {
             {
                 breakpoint: 769,
                 settings: {
+                    centerMode: true,
                     variableWidth: true,
                     slidesToShow: 3
                 }
@@ -47,7 +47,6 @@ $(function () {
         slidesToScroll: 1,
         asNavFor: '.productImgBox02',
         dots: false,
-        centerMode: true,
         focusOnSelect: true,
         prevArrow: $('.productImgWrap .control02 .prev'),
         nextArrow: $('.productImgWrap .control02 .next'),
@@ -55,6 +54,7 @@ $(function () {
             {
                 breakpoint: 769,
                 settings: {
+                    centerMode: true,
                     variableWidth: true,
                     slidesToShow: 3
                 }
@@ -75,7 +75,6 @@ $(function () {
         slidesToScroll: 1,
         asNavFor: '.productImgBox03',
         dots: false,
-        centerMode: true,
         focusOnSelect: true,
         prevArrow: $('.productImgWrap .control03 .prev'),
         nextArrow: $('.productImgWrap .control03 .next'),
@@ -83,6 +82,7 @@ $(function () {
             {
                 breakpoint: 769,
                 settings: {
+                    centerMode: true,
                     variableWidth: true,
                     slidesToShow: 3
                 }
@@ -103,7 +103,6 @@ $(function () {
         slidesToScroll: 1,
         asNavFor: '.productImgBox04',
         dots: false,
-        centerMode: true,
         focusOnSelect: true,
         prevArrow: $('.productImgWrap .control04 .prev'),
         nextArrow: $('.productImgWrap .control04 .next'),
@@ -111,6 +110,7 @@ $(function () {
             {
                 breakpoint: 769,
                 settings: {
+                    centerMode: true,
                     variableWidth: true,
                     slidesToShow: 3
                 }
@@ -131,7 +131,6 @@ $(function () {
         slidesToScroll: 1,
         asNavFor: '.productImgBox05',
         dots: false,
-        centerMode: true,
         focusOnSelect: true,
         prevArrow: $('.productImgWrap .control05 .prev'),
         nextArrow: $('.productImgWrap .control05 .next'),
@@ -139,6 +138,7 @@ $(function () {
             {
                 breakpoint: 769,
                 settings: {
+                    centerMode: true,
                     variableWidth: true,
                     slidesToShow: 3
                 }
@@ -159,7 +159,6 @@ $(function () {
         slidesToScroll: 1,
         asNavFor: '.productImgBox06',
         dots: false,
-        centerMode: true,
         focusOnSelect: true,
         prevArrow: $('.productImgWrap .control06 .prev'),
         nextArrow: $('.productImgWrap .control06 .next'),
@@ -167,6 +166,7 @@ $(function () {
             {
                 breakpoint: 769,
                 settings: {
+                    centerMode: true,
                     variableWidth: true,
                     slidesToShow: 3
                 }
